@@ -1,7 +1,7 @@
 // src
 import { isJSON } from './utils'
 
-const regex = /(.*), (\[.*\])/gi
+const regex = /(.*?), (\[.*\])/gi
 
 export default data => {
     const output = []
